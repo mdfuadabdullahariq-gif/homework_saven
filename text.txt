@@ -1,1 +1,2 @@
   font-family: "Inder", sans-serif;
+font-family: "Bebas Neue", sans-serif;
