@@ -1,165 +1,256 @@
 /* All common css Start*/
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ul,ol{
-    list-style-type: none;
+ul,
+ol {
+  list-style-type: none;
 }
-h1,h2,h3,h4,h5,h6{
-    margin: 0;
-    padding: 0;
-    line-height: 0.8;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
 }
-.container{
-    width: 1320px;
-    margin: 0 auto;
+.container {
+  width: 1320px;
+  margin: 0 auto;
 }
 /* All common css End*/
 
 /* Header Part Start  */
-#headerPart{
-    padding: 30px 0;
-    background: #07110D;
+#headerPart {
+  padding: 30px 0;
+  background: #07110d;
 }
 
-.headerflex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.headerflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.manubar{
-    display: flex;
-    align-items: center;
-    column-gap: 50px;
+.manubar {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
 }
 
-.manubar ul{
-    display: flex;
-    column-gap: 40px;
+.manubar ul {
+  display: flex;
+  column-gap: 40px;
 }
 
-.manubar ul li a{
-    color: #9DB3A8;
-    font-size: 15px;
-    font-weight: 500;
+.manubar ul li a {
+  color: #9db3a8;
+  font-size: 15px;
+  font-weight: 500;
 }
 
-.manubar .headerbtn{
-    padding: 12px 22px;
-    background: #1FB57F;
-    border-radius: 999px;
-    color: #07110D;
-    font-size: 14px;
-    font-weight: 600;
-     font-family: "Inder", sans-serif;
+.manubar .headerbtn {
+  padding: 12px 22px;
+  background: #1fb57f;
+  border-radius: 999px;
+  color: #07110d;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inder", sans-serif;
 }
 /* Header Part End  */
 
 /* banner part start  */
-#bannerPart{
-    padding-top: 60px;
-    padding-bottom: 100px;
-    background: #07110D;
+#bannerPart {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background: #07110d;
 }
 
-.bannerLeft{
-    width: 60%;
+.bannerLeft {
+  width: 60%;
 }
 
-.bannerRight{
-    width: 40%;
-    position: relative;
+.bannerRight {
+  width: 40%;
+  position: relative;
 }
 
-.bannerRight img{
-    width: 100%;
+.bannerRight img {
+  width: 100%;
 }
 
-.bannerflex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.bannerflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.rankCard{
-    padding: 18px 22px;
-    background: #07110D;
-    position: absolute;
-    border-radius: 18px;
-    bottom: 10px;
-    left: 28px;
+.rankCard {
+  padding: 18px 22px;
+  background: #07110d;
+  position: absolute;
+  border-radius: 18px;
+  bottom: 10px;
+  left: 28px;
 }
 
-.rankCard h3{
-    color: #F4EFE6;
-     font-family: "Bebas Neue", sans-serif;
-     font-size: 28px;
-     text-transform: uppercase;
-     font-weight: 400;
+.rankCard h3 {
+  color: #f4efe6;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
-.rankCard p{
-    color: #9DB3A8;
-      font-family: "Inder", sans-serif;
-     font-size: 13px;
-     font-weight: 400;
-    
+.rankCard p {
+  color: #9db3a8;
+  font-family: "Inder", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
 }
 
-.bannerLeft h4{
-    color: #1FB57F;
-    font-family: "Inder", sans-serif;
-     font-size: 13px;
-     font-weight: 400;
-    
+.bannerLeft h4 {
+  color: #1fb57f;
+  font-family: "Inder", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
 }
 
-.bannerLeft h1{
-    color: #F4EFE6;
-     font-family: "Bebas Neue", sans-serif;
-     font-size: 148px;
-     text-transform: uppercase;
-     font-weight: 400;
-     width: 456px;
-     line-height: 88%;
-     padding-top: 45px;
-     padding-bottom: 30px;
+.bannerLeft h1 {
+  color: #f4efe6;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 148px;
+  text-transform: uppercase;
+  font-weight: 400;
+  width: 456px;
+  line-height: 88%;
+  padding-top: 45px;
+  padding-bottom: 30px;
 }
 
-.bannerLeft p{
-    color: #9DB3A8;
-    font-size: 14px;
-    font-weight: 600;
-     font-family: "Inder", sans-serif;
-     line-height: 155%;
-     width: 560px;
+.bannerLeft p {
+  color: #9db3a8;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inder", sans-serif;
+  line-height: 155%;
+  width: 560px;
 }
-.bannerbtn{
-    display: flex;
-    align-items: center;
-    column-gap: 15px;
-    margin-top: 30px;
+.bannerbtn {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  margin-top: 30px;
 }
-.bannerbtn a{
-      padding: 16px 28px;
-    border-radius: 999px;
-    font-size: 16px;
-    font-weight: 600;
-     font-family: "Inder", sans-serif;
+.bannerbtn a {
+  padding: 16px 28px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inder", sans-serif;
 }
-.bannerbtn1{
-    color: #F4EFE6;
-    background: #F42A41;
-    
+.bannerbtn1 {
+  color: #f4efe6;
+  background: #f42a41;
 }
 
-.bannerbtn2{
-    color: #F4EFE6;
-    border: 1px solid #21402F;
+.bannerbtn2 {
+  color: #f4efe6;
+  border: 1px solid #21402f;
 }
 /* banner part end */
+
+/* International part start  */
+#InternationalPart {
+  padding-top: 0;
+  padding-bottom: 100px;
+  background: #07110d;
+}
+
+.Internationalflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.statCard {
+  background: #21402f;
+  padding: 28px;
+  border-radius: 18px;
+  width: 250px;
+  border: 1px solid #9db3a8;
+}
+
+.statCard h1 {
+  color: #f4efe6;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+.statCard p {
+  color: #9db3a8;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inder", sans-serif;
+  line-height: 155%;
+}
+
+/* International part end  */
+
+/* About part start */
+.aboutPart {
+  padding: 110px;
+
+  background: #21402f;
+}
+
+.aboutflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutLeft {
+  width: 50%;
+}
+
+.aboutRight {
+  width: 50%;
+  position: relative;
+}
+
+.aboutLeft h3 {
+  color: #f4efe6;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 75px;
+  padding-bottom: 10px;
+  line-height: 88%;
+}
+.aboutRight h3 {
+  color: #1fb57f;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 46px;
+  padding-bottom: 10px;
+  line-height: 88%;
+}
+
+.aboutRight p {
+  color: #9db3a8;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inder", sans-serif;
+  line-height: 155%;
+  width: 500px;
+  padding: 14px 0;
+}
+/* About part start */
