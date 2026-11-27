@@ -231,7 +231,7 @@ h6 {
   color: #f4efe6;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 500;
-  font-size: 75px;
+  font-size: 80px;
   padding-bottom: 10px;
   line-height: 88%;
 }
@@ -252,5 +252,24 @@ h6 {
   line-height: 155%;
   width: 500px;
   padding: 14px 0;
+}
+.tableitem{
+  width: 80%;
+  border-top: 1px solid #9DB3A8;
+  border-right: 1px solid #9DB3A8;
+  border-left: 1px solid #9DB3A8;
+  padding: 15px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subitem{
+  width: 80%;
+  border-top: 1px solid #9DB3A8;
+  border-right: 1px solid #9DB3A8;
+  border-left: 1px solid #9DB3A8;
+  padding: 15px 20px;
 }
 /* About part start */
